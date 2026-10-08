@@ -1,0 +1,43 @@
+{
+  "schema": "kettle-data-manifest-v1",
+  "retrieved_or_created_at_utc": "2026-10-08T06:04:29.082838+00:00",
+  "sources": [
+    {
+      "role": "classroom BOM",
+      "path": "data/kettle_bom.csv",
+      "url": "https://tiangong-lca-decision-lab.ecodino73.chatgpt.site/classroom/kettle-bom.csv",
+      "sha256": "89b76fbf59a6ab1f3c5825cc6052556b15e1d3e8ea7739121ccb656d00b68f13",
+      "status": "original CSV downloaded"
+    },
+    {
+      "role": "candidate dataset mapping",
+      "path": "data/candidate_mapping.csv",
+      "url": null,
+      "sha256": "e715a56789cc7e441494fe392b1feb5f392e0b3cf25b92fcb0284f1cdd4cc93a",
+      "status": "curated from public catalog and USLCI API metadata; not accepted datasets"
+    },
+    {
+      "role": "selected characterization factors",
+      "path": "data/ipcc_ar6_gwp100.csv",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+      "sha256": "34b73dc87f720d0fad94bf01ffc3e88e9677e0e12e41c3a21a3a58e7479c94c3",
+      "status": "selected-gas subset transcribed from IPCC AR6; review exact flow matching"
+    },
+    {
+      "role": "proxy GWP material factors",
+      "path": "data/proxy_factors.csv",
+      "url": "https://www.westminster.gov.uk/sites/default/files/media/documents/EV_R_003%20Embodied%20Carbon%20Evidence%20Study%20Update_0.pdf",
+      "sha256": "2434e620d47a6c492793ad84eccd68eded8cb9619093425f0db633451fe6ae7b",
+      "status": "10 Westminster/WSP factor transcriptions plus POM and silicone product proxies; see per-row links and model choices; not process inventories"
+    },
+    {
+      "role": "proxy scenario assumptions",
+      "path": "data/proxy_scenario.json",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202510/W020251024569470952545.pdf",
+      "sha256": "c4b743ab9ef9d58e7fac2712cac124440dcd594b52569598488689081b203b61",
+      "status": "Analyst assumptions plus sourced China 2024 grid factor"
+    }
+  ],
+  "background_process_files": [],
+  "missing_background_data": "No complete supplier-closed process inventories or full LCIA method file were retrieved."
+}

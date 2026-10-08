@@ -1,0 +1,19 @@
+{
+  "study_id": "fictitious-electricity-coal-teaching-example",
+  "declared_unit": "1 kWh electricity, fictitious system; not a kettle result",
+  "demand": {"flow_id": "electricity", "amount": 1, "unit": "kWh"},
+  "processes": [
+    {
+      "id": "electricity",
+      "reference": {"flow_id": "electricity", "amount": 1500, "unit": "kWh"},
+      "technosphere": [{"flow_id": "coal", "provider": "coal", "amount": 0.01, "unit": "tonne"}],
+      "elementary": [{"flow_id": "co2_fossil", "compartment": "air", "amount": 20, "unit": "kg"}]
+    },
+    {
+      "id": "coal",
+      "reference": {"flow_id": "coal", "amount": 0.1, "unit": "tonne"},
+      "technosphere": [{"flow_id": "electricity", "provider": "electricity", "amount": 3000, "unit": "kWh"}],
+      "elementary": [{"flow_id": "co2_fossil", "compartment": "air", "amount": 10, "unit": "kg"}]
+    }
+  ]
+}

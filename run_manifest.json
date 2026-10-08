@@ -1,0 +1,95 @@
+{
+  "schema": "lca-classroom-run-v1",
+  "student_alias": "unknown",
+  "run_label": "proxy_baseline_2026-10-08",
+  "run_date_utc": "2026-10-08T06:23:12.386297+00:00",
+  "codex_model_displayed": "unknown",
+  "codex_settings_known": {},
+  "declared_unit": "One manufactured and packaged BC1 1 L plastic electric kettle at the factory gate",
+  "included": [
+    "material supply",
+    "component manufacture",
+    "assembly",
+    "packaging"
+  ],
+  "excluded": [
+    "customer delivery",
+    "use",
+    "end of life"
+  ],
+  "manufacturing_geography": "China (assumption for proxy scenario)",
+  "characterization_method": {
+    "name": "IPCC AR6 WGI GWP100",
+    "version": "AR6 WGI 2021; selected gas factors only",
+    "time_horizon_years": 100,
+    "source_url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/"
+  },
+  "database_releases": [
+    "USLCI 1.2026-09.0 candidate search",
+    "TianGong public catalog/LCDN candidate records"
+  ],
+  "assumptions": {
+    "yield_and_losses": "95% yield for all 12 materials",
+    "manufacturing_energy": "0.5 kWh/kg for materials without forming in factor; 0.1 kWh assembly per kettle",
+    "allocation": "no recycling credit; 0.1 kg CO2e/kg scrap treatment assumption",
+    "other": "China manufacturing assumed; 500 km inbound freight; 0.1 kg CO2e/t-km transport factor"
+  },
+  "mapping_table": "data/candidate_mapping.csv",
+  "prompts_record": "docs/decision_log.md",
+  "reproduction_command": "python src/proxy_lcia.py; python src/lcia.py audit",
+  "results": {
+    "status": "calculated proxy scenario; not a supplier-closed process LCA",
+    "ghg_kg_co2e_per_packaged_kettle": 4.062263802631579,
+    "contributions": {
+      "material_proxy_factors": 3.8013394736842105,
+      "additional_component_conversion_electricity": 0.1533185394736842,
+      "assembly_electricity": 0.05777,
+      "inbound_transport": 0.04530526315789474,
+      "scrap_treatment": 0.0045305263157894736
+    },
+    "proxy_result_file": "results/proxy_baseline.json",
+    "strict_process_model_status": "incomplete: required inputs and supplier inventory are missing",
+    "strict_process_model_gwp100": null,
+    "gap_register": "results/gap_register.csv",
+    "blocking_item_count": 43
+  },
+  "uncertainty": {
+    "performed": false,
+    "distributions": [],
+    "correlations": "not calculated",
+    "seed": null,
+    "draws": null,
+    "p05_kg_co2e": null,
+    "p95_kg_co2e": null
+  },
+  "checks": {
+    "units": "BOM g-to-kg checked; supplier units pending",
+    "balances": {
+      "product_g": {
+        "actual_g": "723.00",
+        "expected_g": "723",
+        "pass": true
+      },
+      "packaging_g": {
+        "actual_g": "137.8",
+        "expected_g": "137.8",
+        "pass": true
+      },
+      "total_g": {
+        "actual_g": "860.80",
+        "expected_g": "860.8",
+        "pass": true
+      }
+    },
+    "contribution_sum": "proxy scenario passes; strict process model not calculated",
+    "double_counting": "PP moulding and LDPE film conversion excluded from extra electricity; yield-loss overlap remains possible"
+  },
+  "revision": {
+    "prior_commit_sha": null,
+    "one_choice_changed": "not applicable",
+    "predicted_effect": "not applicable",
+    "observed_effect": "not applicable"
+  },
+  "proxy_characterization_method": "Precharacterized published material CO2e/kg factors plus official China 2024 grid factor; source GWP versions heterogeneous/unknown; not harmonized to IPCC AR6",
+  "repository_url": "https://github.com/rlaxogus0908-wq/LCA-report"
+}

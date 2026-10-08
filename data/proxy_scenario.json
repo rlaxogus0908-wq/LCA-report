@@ -1,0 +1,15 @@
+{
+  "scenario_id": "proxy_baseline_2026-10-08",
+  "declared_unit": "one manufactured and packaged BC1 1 L kettle at factory gate",
+  "assumed_manufacturing_country": "China",
+  "yield_fraction_all_materials": 0.95,
+  "conversion_electricity_kwh_per_kg_for_materials_without_included_conversion": 0.5,
+  "assembly_electricity_kwh_per_kettle": 0.1,
+  "inbound_transport_distance_km": 500,
+  "inbound_transport_factor_kg_co2e_per_tkm": 0.1,
+  "scrap_treatment_factor_kg_co2e_per_kg_scrap": 0.1,
+  "grid_factor_kg_co2e_per_kwh": 0.5777,
+  "grid_factor_source": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202510/W020251024569470952545.pdf",
+  "grid_factor_source_detail": "2024 China national average electricity carbon footprint, table 1",
+  "assumption_note": "All quantities except BOM masses, published proxy factors, and national grid factor are explicit analyst assumptions. All material proxy factors are applied to estimated purchased mass. No recycling credit or customer delivery/use/end of life is included."
+}

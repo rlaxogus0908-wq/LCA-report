@@ -1,0 +1,119 @@
+{
+  "study_id": "bc1-kettle-template-incomplete",
+  "declared_unit": "One manufactured and packaged BC1 1 L plastic electric kettle at the factory gate",
+  "template_warning": "NOT A RESULT. Fill every purchase amount, supplier process, elementary flow, conversion service, assembly energy and all upstream links before calculating.",
+  "demand": {
+    "flow_id": "packaged_kettle",
+    "amount": 1,
+    "unit": "item"
+  },
+  "processes": [
+    {
+      "id": "kettle_assembly",
+      "reference": {
+        "flow_id": "packaged_kettle",
+        "amount": 1,
+        "unit": "item"
+      },
+      "technosphere": [
+        {
+          "flow_id": "material_01",
+          "provider": null,
+          "amount": null,
+          "unit": "kg",
+          "material": "Stainless steel",
+          "finished_mass_kg_for_reference_only": 0.186
+        },
+        {
+          "flow_id": "material_02",
+          "provider": null,
+          "amount": null,
+          "unit": "kg",
+          "material": "Brass",
+          "finished_mass_kg_for_reference_only": 0.02025
+        },
+        {
+          "flow_id": "material_03",
+          "provider": null,
+          "amount": null,
+          "unit": "kg",
+          "material": "Copper",
+          "finished_mass_kg_for_reference_only": 0.015
+        },
+        {
+          "flow_id": "material_04",
+          "provider": null,
+          "amount": null,
+          "unit": "kg",
+          "material": "Polypropylene (PP)",
+          "finished_mass_kg_for_reference_only": 0.35025
+        },
+        {
+          "flow_id": "material_05",
+          "provider": null,
+          "amount": null,
+          "unit": "kg",
+          "material": "Polyvinyl chloride (PVC)",
+          "finished_mass_kg_for_reference_only": 0.0435
+        },
+        {
+          "flow_id": "material_06",
+          "provider": null,
+          "amount": null,
+          "unit": "kg",
+          "material": "Nylon, grade unspecified",
+          "finished_mass_kg_for_reference_only": 0.0495
+        },
+        {
+          "flow_id": "material_07",
+          "provider": null,
+          "amount": null,
+          "unit": "kg",
+          "material": "Polyoxymethylene (POM)",
+          "finished_mass_kg_for_reference_only": 0.00975
+        },
+        {
+          "flow_id": "material_08",
+          "provider": null,
+          "amount": null,
+          "unit": "kg",
+          "material": "Polycarbonate (PC)",
+          "finished_mass_kg_for_reference_only": 0.00675
+        },
+        {
+          "flow_id": "material_09",
+          "provider": null,
+          "amount": null,
+          "unit": "kg",
+          "material": "Acrylonitrile-butadiene-styrene (ABS)",
+          "finished_mass_kg_for_reference_only": 0.03
+        },
+        {
+          "flow_id": "material_10",
+          "provider": null,
+          "amount": null,
+          "unit": "kg",
+          "material": "Silicone",
+          "finished_mass_kg_for_reference_only": 0.012
+        },
+        {
+          "flow_id": "material_11",
+          "provider": null,
+          "amount": null,
+          "unit": "kg",
+          "material": "LDPE packaging foil",
+          "finished_mass_kg_for_reference_only": 0.0063
+        },
+        {
+          "flow_id": "material_12",
+          "provider": null,
+          "amount": null,
+          "unit": "kg",
+          "material": "Cardboard packaging",
+          "finished_mass_kg_for_reference_only": 0.1315
+        }
+      ],
+      "elementary": []
+    }
+  ]
+}

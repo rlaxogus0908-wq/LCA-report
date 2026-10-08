@@ -1,0 +1,44 @@
+scope,item,needed,current_evidence
+Stainless steel,procurement_mass,Measured or justified yield/scrap rate or purchased kg per kettle,Finished mass only: 0.186 kg
+Stainless steel,component_conversion,"Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",No conversion service/amount/unit
+Stainless steel,material_provider,"Accepted compatible production process with version, reference unit and full exchanges",USLCI 49f5324b-fc33-36e9-b5af-3c80d73492bd; status=candidate
+Brass,procurement_mass,Measured or justified yield/scrap rate or purchased kg per kettle,Finished mass only: 0.02025 kg
+Brass,component_conversion,"Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",No conversion service/amount/unit
+Brass,material_provider,"Accepted compatible production process with version, reference unit and full exchanges",TianGong LCDN d58c2083-cf82-402e-8ba1-b14a39d6195a; status=candidate
+Copper,procurement_mass,Measured or justified yield/scrap rate or purchased kg per kettle,Finished mass only: 0.015 kg
+Copper,component_conversion,"Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",No conversion service/amount/unit
+Copper,material_provider,"Accepted compatible production process with version, reference unit and full exchanges",TianGong 632ea2c6-0980-47dd-920e-14d04ffc957c; status=candidate
+Polypropylene (PP),procurement_mass,Measured or justified yield/scrap rate or purchased kg per kettle,Finished mass only: 0.35025 kg
+Polypropylene (PP),component_conversion,"Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",No conversion service/amount/unit
+Polypropylene (PP),material_provider,"Accepted compatible production process with version, reference unit and full exchanges",TianGong LCDN 90cdb77a-9999-4bf5-bcb5-3923f8a46274; status=candidate
+Polyvinyl chloride (PVC),procurement_mass,Measured or justified yield/scrap rate or purchased kg per kettle,Finished mass only: 0.0435 kg
+Polyvinyl chloride (PVC),component_conversion,"Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",No conversion service/amount/unit
+Polyvinyl chloride (PVC),material_provider,"Accepted compatible production process with version, reference unit and full exchanges",USLCI 3dbccdda-2014-4239-ad1f-4e15c034942b; status=candidate
+"Nylon, grade unspecified",procurement_mass,Measured or justified yield/scrap rate or purchased kg per kettle,Finished mass only: 0.0495 kg
+"Nylon, grade unspecified",component_conversion,"Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",No conversion service/amount/unit
+"Nylon, grade unspecified",material_provider,"Accepted compatible production process with version, reference unit and full exchanges",USLCI a2174501-418e-4b2e-9dbd-fa81f5f0bcc7; status=rejected for baseline
+Polyoxymethylene (POM),procurement_mass,Measured or justified yield/scrap rate or purchased kg per kettle,Finished mass only: 0.00975 kg
+Polyoxymethylene (POM),component_conversion,"Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",No conversion service/amount/unit
+Polyoxymethylene (POM),material_provider,"Accepted compatible production process with version, reference unit and full exchanges",unknown unknown; status=unresolved
+Polycarbonate (PC),procurement_mass,Measured or justified yield/scrap rate or purchased kg per kettle,Finished mass only: 0.00675 kg
+Polycarbonate (PC),component_conversion,"Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",No conversion service/amount/unit
+Polycarbonate (PC),material_provider,"Accepted compatible production process with version, reference unit and full exchanges",USLCI 531f7547-3175-4114-842a-cf358fb4a10b; status=rejected for baseline
+Acrylonitrile-butadiene-styrene (ABS),procurement_mass,Measured or justified yield/scrap rate or purchased kg per kettle,Finished mass only: 0.03 kg
+Acrylonitrile-butadiene-styrene (ABS),component_conversion,"Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",No conversion service/amount/unit
+Acrylonitrile-butadiene-styrene (ABS),material_provider,"Accepted compatible production process with version, reference unit and full exchanges",USLCI 0e42a306-ee2d-362e-8bc3-580000096459; status=candidate
+Silicone,procurement_mass,Measured or justified yield/scrap rate or purchased kg per kettle,Finished mass only: 0.012 kg
+Silicone,component_conversion,"Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",No conversion service/amount/unit
+Silicone,material_provider,"Accepted compatible production process with version, reference unit and full exchanges",unknown unknown; status=unresolved
+LDPE packaging foil,procurement_mass,Measured or justified yield/scrap rate or purchased kg per kettle,Finished mass only: 0.0063 kg
+LDPE packaging foil,component_conversion,"Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",No conversion service/amount/unit
+LDPE packaging foil,material_provider,"Accepted compatible production process with version, reference unit and full exchanges",unknown unknown; status=unresolved
+Cardboard packaging,procurement_mass,Measured or justified yield/scrap rate or purchased kg per kettle,Finished mass only: 0.1315 kg
+Cardboard packaging,component_conversion,"Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",No conversion service/amount/unit
+Cardboard packaging,material_provider,"Accepted compatible production process with version, reference unit and full exchanges",unknown unknown; status=unresolved
+system,manufacturing_geography,Manufacturing location and matching electricity region,not established
+system,assembly_electricity_kwh,Measured or justified assembly electricity per packaged kettle,not established
+system,assembly_other_energy,Quantified other assembly energy or sourced evidence for none,not established
+system,inbound_transport,Inbound freight amounts or explicit supported boundary decision,not established
+system,scrap_treatment_allocation,"Scrap fate, treatment and allocation/credit rule",not established
+system,supplier_closed_inventory,Imported full technosphere and elementary exchanges with resolved upstream providers,not established
+system,characterization_coverage,CFs for every climate-relevant elementary flow including fossil/biogenic distinctions,not established

@@ -1,0 +1,5 @@
+flow_id,compartment,unit,category,indicator_unit,cf,source
+co2_fossil,air,kg,climate_change_gwp100,kg CO2-eq,1,https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/
+ch4_fossil,air,kg,climate_change_gwp100,kg CO2-eq,29.8,https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/
+ch4_nonfossil,air,kg,climate_change_gwp100,kg CO2-eq,27.0,https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/
+n2o,air,kg,climate_change_gwp100,kg CO2-eq,273,https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/

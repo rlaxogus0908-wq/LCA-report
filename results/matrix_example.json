@@ -1,0 +1,43 @@
+{
+  "schema": "kettle-lcia-run-v1",
+  "study_id": "fictitious-electricity-coal-teaching-example",
+  "declared_unit": "1 kWh electricity, fictitious system; not a kettle result",
+  "calculation_status": "matrix model solved and all listed flows characterized; boundary completeness requires separate audit",
+  "method": "IPCC AR6 WGI GWP100, 100 years, selected gas factors",
+  "gwp100_kg_co2e": 0.017499999999999998,
+  "process_activities": [
+    {
+      "process_id": "electricity",
+      "activity": 0.0008333333333333334
+    },
+    {
+      "process_id": "coal",
+      "activity": 8.333333333333333e-05
+    }
+  ],
+  "elementary_inventory": [
+    {
+      "flow_id": "co2_fossil",
+      "compartment": "air",
+      "unit": "kg",
+      "amount": 0.017499999999999998,
+      "cf": 1.0
+    }
+  ],
+  "contributions_kg_co2e": [
+    {
+      "process_id": "electricity",
+      "amount": 0.016666666666666666
+    },
+    {
+      "process_id": "coal",
+      "amount": 0.0008333333333333333
+    }
+  ],
+  "checks": {
+    "matrix_balance_max_abs": 3.0899761915836877e-22,
+    "contribution_sum_difference": 0.0,
+    "uncharacterized_flow_count": 0,
+    "supplier_links": "all listed technosphere flows linked"
+  }
+}

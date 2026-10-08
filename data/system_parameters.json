@@ -1,0 +1,10 @@
+{
+  "manufacturing_geography": null,
+  "assembly_electricity_kwh": null,
+  "assembly_other_energy": null,
+  "inbound_transport": null,
+  "scrap_treatment_allocation": null,
+  "supplier_closed_inventory": null,
+  "characterization_coverage": null,
+  "note": "null means unmeasured or undecided, never zero. Replace only with sourced evidence or explicitly labelled assumptions."
+}

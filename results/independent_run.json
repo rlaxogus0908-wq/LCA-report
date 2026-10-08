@@ -1,0 +1,340 @@
+{
+  "schema": "kettle-lcia-run-v1",
+  "run_label": "independent-baseline",
+  "run_date_utc": "2026-10-08T06:13:51.157752+00:00",
+  "declared_unit": "One manufactured and packaged BC1 1 L plastic electric kettle at the factory gate",
+  "calculation_status": "incomplete: required inputs and supplier inventory are missing",
+  "gwp100_kg_co2e_per_packaged_kettle": null,
+  "contributions_kg_co2e": null,
+  "characterization_method": "IPCC AR6 WGI GWP100, 100 years; selected gas factors only",
+  "checks": {
+    "bom_row_count": 12,
+    "mass_balance": {
+      "product_g": {
+        "actual_g": "723.00",
+        "expected_g": "723",
+        "pass": true
+      },
+      "packaging_g": {
+        "actual_g": "137.8",
+        "expected_g": "137.8",
+        "pass": true
+      },
+      "total_g": {
+        "actual_g": "860.80",
+        "expected_g": "860.8",
+        "pass": true
+      }
+    },
+    "supplier_closure": "fail: suppliers have not been linked",
+    "uncharacterized_flows": "unknown until inventory is imported",
+    "contribution_sum": "not calculated",
+    "double_counting": "not fully checked: conversion services and background boundaries unknown"
+  },
+  "missing_inputs": [
+    "Stainless steel: procurement_mass",
+    "Stainless steel: component_conversion",
+    "Stainless steel: material_provider",
+    "Brass: procurement_mass",
+    "Brass: component_conversion",
+    "Brass: material_provider",
+    "Copper: procurement_mass",
+    "Copper: component_conversion",
+    "Copper: material_provider",
+    "Polypropylene (PP): procurement_mass",
+    "Polypropylene (PP): component_conversion",
+    "Polypropylene (PP): material_provider",
+    "Polyvinyl chloride (PVC): procurement_mass",
+    "Polyvinyl chloride (PVC): component_conversion",
+    "Polyvinyl chloride (PVC): material_provider",
+    "Nylon, grade unspecified: procurement_mass",
+    "Nylon, grade unspecified: component_conversion",
+    "Nylon, grade unspecified: material_provider",
+    "Polyoxymethylene (POM): procurement_mass",
+    "Polyoxymethylene (POM): component_conversion",
+    "Polyoxymethylene (POM): material_provider",
+    "Polycarbonate (PC): procurement_mass",
+    "Polycarbonate (PC): component_conversion",
+    "Polycarbonate (PC): material_provider",
+    "Acrylonitrile-butadiene-styrene (ABS): procurement_mass",
+    "Acrylonitrile-butadiene-styrene (ABS): component_conversion",
+    "Acrylonitrile-butadiene-styrene (ABS): material_provider",
+    "Silicone: procurement_mass",
+    "Silicone: component_conversion",
+    "Silicone: material_provider",
+    "LDPE packaging foil: procurement_mass",
+    "LDPE packaging foil: component_conversion",
+    "LDPE packaging foil: material_provider",
+    "Cardboard packaging: procurement_mass",
+    "Cardboard packaging: component_conversion",
+    "Cardboard packaging: material_provider",
+    "system: manufacturing_geography",
+    "system: assembly_electricity_kwh",
+    "system: assembly_other_energy",
+    "system: inbound_transport",
+    "system: scrap_treatment_allocation",
+    "system: supplier_closed_inventory",
+    "system: characterization_coverage"
+  ],
+  "blocking_items": [
+    {
+      "scope": "Stainless steel",
+      "item": "procurement_mass",
+      "needed": "Measured or justified yield/scrap rate or purchased kg per kettle",
+      "current_evidence": "Finished mass only: 0.186 kg"
+    },
+    {
+      "scope": "Stainless steel",
+      "item": "component_conversion",
+      "needed": "Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",
+      "current_evidence": "No conversion service/amount/unit"
+    },
+    {
+      "scope": "Stainless steel",
+      "item": "material_provider",
+      "needed": "Accepted compatible production process with version, reference unit and full exchanges",
+      "current_evidence": "USLCI 49f5324b-fc33-36e9-b5af-3c80d73492bd; status=candidate"
+    },
+    {
+      "scope": "Brass",
+      "item": "procurement_mass",
+      "needed": "Measured or justified yield/scrap rate or purchased kg per kettle",
+      "current_evidence": "Finished mass only: 0.02025 kg"
+    },
+    {
+      "scope": "Brass",
+      "item": "component_conversion",
+      "needed": "Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",
+      "current_evidence": "No conversion service/amount/unit"
+    },
+    {
+      "scope": "Brass",
+      "item": "material_provider",
+      "needed": "Accepted compatible production process with version, reference unit and full exchanges",
+      "current_evidence": "TianGong LCDN d58c2083-cf82-402e-8ba1-b14a39d6195a; status=candidate"
+    },
+    {
+      "scope": "Copper",
+      "item": "procurement_mass",
+      "needed": "Measured or justified yield/scrap rate or purchased kg per kettle",
+      "current_evidence": "Finished mass only: 0.015 kg"
+    },
+    {
+      "scope": "Copper",
+      "item": "component_conversion",
+      "needed": "Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",
+      "current_evidence": "No conversion service/amount/unit"
+    },
+    {
+      "scope": "Copper",
+      "item": "material_provider",
+      "needed": "Accepted compatible production process with version, reference unit and full exchanges",
+      "current_evidence": "TianGong 632ea2c6-0980-47dd-920e-14d04ffc957c; status=candidate"
+    },
+    {
+      "scope": "Polypropylene (PP)",
+      "item": "procurement_mass",
+      "needed": "Measured or justified yield/scrap rate or purchased kg per kettle",
+      "current_evidence": "Finished mass only: 0.35025 kg"
+    },
+    {
+      "scope": "Polypropylene (PP)",
+      "item": "component_conversion",
+      "needed": "Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",
+      "current_evidence": "No conversion service/amount/unit"
+    },
+    {
+      "scope": "Polypropylene (PP)",
+      "item": "material_provider",
+      "needed": "Accepted compatible production process with version, reference unit and full exchanges",
+      "current_evidence": "TianGong LCDN 90cdb77a-9999-4bf5-bcb5-3923f8a46274; status=candidate"
+    },
+    {
+      "scope": "Polyvinyl chloride (PVC)",
+      "item": "procurement_mass",
+      "needed": "Measured or justified yield/scrap rate or purchased kg per kettle",
+      "current_evidence": "Finished mass only: 0.0435 kg"
+    },
+    {
+      "scope": "Polyvinyl chloride (PVC)",
+      "item": "component_conversion",
+      "needed": "Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",
+      "current_evidence": "No conversion service/amount/unit"
+    },
+    {
+      "scope": "Polyvinyl chloride (PVC)",
+      "item": "material_provider",
+      "needed": "Accepted compatible production process with version, reference unit and full exchanges",
+      "current_evidence": "USLCI 3dbccdda-2014-4239-ad1f-4e15c034942b; status=candidate"
+    },
+    {
+      "scope": "Nylon, grade unspecified",
+      "item": "procurement_mass",
+      "needed": "Measured or justified yield/scrap rate or purchased kg per kettle",
+      "current_evidence": "Finished mass only: 0.0495 kg"
+    },
+    {
+      "scope": "Nylon, grade unspecified",
+      "item": "component_conversion",
+      "needed": "Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",
+      "current_evidence": "No conversion service/amount/unit"
+    },
+    {
+      "scope": "Nylon, grade unspecified",
+      "item": "material_provider",
+      "needed": "Accepted compatible production process with version, reference unit and full exchanges",
+      "current_evidence": "USLCI a2174501-418e-4b2e-9dbd-fa81f5f0bcc7; status=rejected for baseline"
+    },
+    {
+      "scope": "Polyoxymethylene (POM)",
+      "item": "procurement_mass",
+      "needed": "Measured or justified yield/scrap rate or purchased kg per kettle",
+      "current_evidence": "Finished mass only: 0.00975 kg"
+    },
+    {
+      "scope": "Polyoxymethylene (POM)",
+      "item": "component_conversion",
+      "needed": "Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",
+      "current_evidence": "No conversion service/amount/unit"
+    },
+    {
+      "scope": "Polyoxymethylene (POM)",
+      "item": "material_provider",
+      "needed": "Accepted compatible production process with version, reference unit and full exchanges",
+      "current_evidence": "unknown unknown; status=unresolved"
+    },
+    {
+      "scope": "Polycarbonate (PC)",
+      "item": "procurement_mass",
+      "needed": "Measured or justified yield/scrap rate or purchased kg per kettle",
+      "current_evidence": "Finished mass only: 0.00675 kg"
+    },
+    {
+      "scope": "Polycarbonate (PC)",
+      "item": "component_conversion",
+      "needed": "Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",
+      "current_evidence": "No conversion service/amount/unit"
+    },
+    {
+      "scope": "Polycarbonate (PC)",
+      "item": "material_provider",
+      "needed": "Accepted compatible production process with version, reference unit and full exchanges",
+      "current_evidence": "USLCI 531f7547-3175-4114-842a-cf358fb4a10b; status=rejected for baseline"
+    },
+    {
+      "scope": "Acrylonitrile-butadiene-styrene (ABS)",
+      "item": "procurement_mass",
+      "needed": "Measured or justified yield/scrap rate or purchased kg per kettle",
+      "current_evidence": "Finished mass only: 0.03 kg"
+    },
+    {
+      "scope": "Acrylonitrile-butadiene-styrene (ABS)",
+      "item": "component_conversion",
+      "needed": "Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",
+      "current_evidence": "No conversion service/amount/unit"
+    },
+    {
+      "scope": "Acrylonitrile-butadiene-styrene (ABS)",
+      "item": "material_provider",
+      "needed": "Accepted compatible production process with version, reference unit and full exchanges",
+      "current_evidence": "USLCI 0e42a306-ee2d-362e-8bc3-580000096459; status=candidate"
+    },
+    {
+      "scope": "Silicone",
+      "item": "procurement_mass",
+      "needed": "Measured or justified yield/scrap rate or purchased kg per kettle",
+      "current_evidence": "Finished mass only: 0.012 kg"
+    },
+    {
+      "scope": "Silicone",
+      "item": "component_conversion",
+      "needed": "Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",
+      "current_evidence": "No conversion service/amount/unit"
+    },
+    {
+      "scope": "Silicone",
+      "item": "material_provider",
+      "needed": "Accepted compatible production process with version, reference unit and full exchanges",
+      "current_evidence": "unknown unknown; status=unresolved"
+    },
+    {
+      "scope": "LDPE packaging foil",
+      "item": "procurement_mass",
+      "needed": "Measured or justified yield/scrap rate or purchased kg per kettle",
+      "current_evidence": "Finished mass only: 0.0063 kg"
+    },
+    {
+      "scope": "LDPE packaging foil",
+      "item": "component_conversion",
+      "needed": "Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",
+      "current_evidence": "No conversion service/amount/unit"
+    },
+    {
+      "scope": "LDPE packaging foil",
+      "item": "material_provider",
+      "needed": "Accepted compatible production process with version, reference unit and full exchanges",
+      "current_evidence": "unknown unknown; status=unresolved"
+    },
+    {
+      "scope": "Cardboard packaging",
+      "item": "procurement_mass",
+      "needed": "Measured or justified yield/scrap rate or purchased kg per kettle",
+      "current_evidence": "Finished mass only: 0.1315 kg"
+    },
+    {
+      "scope": "Cardboard packaging",
+      "item": "component_conversion",
+      "needed": "Process route and quantified forming/fabrication service, or evidence that selected dataset includes it",
+      "current_evidence": "No conversion service/amount/unit"
+    },
+    {
+      "scope": "Cardboard packaging",
+      "item": "material_provider",
+      "needed": "Accepted compatible production process with version, reference unit and full exchanges",
+      "current_evidence": "unknown unknown; status=unresolved"
+    },
+    {
+      "scope": "system",
+      "item": "manufacturing_geography",
+      "needed": "Manufacturing location and matching electricity region",
+      "current_evidence": "not established"
+    },
+    {
+      "scope": "system",
+      "item": "assembly_electricity_kwh",
+      "needed": "Measured or justified assembly electricity per packaged kettle",
+      "current_evidence": "not established"
+    },
+    {
+      "scope": "system",
+      "item": "assembly_other_energy",
+      "needed": "Quantified other assembly energy or sourced evidence for none",
+      "current_evidence": "not established"
+    },
+    {
+      "scope": "system",
+      "item": "inbound_transport",
+      "needed": "Inbound freight amounts or explicit supported boundary decision",
+      "current_evidence": "not established"
+    },
+    {
+      "scope": "system",
+      "item": "scrap_treatment_allocation",
+      "needed": "Scrap fate, treatment and allocation/credit rule",
+      "current_evidence": "not established"
+    },
+    {
+      "scope": "system",
+      "item": "supplier_closed_inventory",
+      "needed": "Imported full technosphere and elementary exchanges with resolved upstream providers",
+      "current_evidence": "not established"
+    },
+    {
+      "scope": "system",
+      "item": "characterization_coverage",
+      "needed": "CFs for every climate-relevant elementary flow including fossil/biogenic distinctions",
+      "current_evidence": "not established"
+    }
+  ],
+  "interpretation": "No kettle GWP100 is reported. BOM mass alone is not an elementary-flow inventory."
+}
