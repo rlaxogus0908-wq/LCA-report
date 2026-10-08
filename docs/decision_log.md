@@ -10,7 +10,7 @@ This is a curated record of consequential modeling choices. It omits personal me
 | 2026-10-08 | Search TianGong and USLCI. | Record candidate datasets and reject unsupported bridges or product flows as complete LCI substitutes. | No background dataset is marked accepted or supplier-closed yet. |
 | 2026-10-08 | Produce a supplier-closed GWP100 total. | Deferred because component conversion, assembly energy, upstream providers, and complete elementary inventories are missing. | The strict process-model result is `null`, not zero. |
 | 2026-10-08 | User requested a numerical result using explicit proxies and assumptions. | Create a separately labelled proxy scenario from 12 published CO2e material factors, the official China 2024 grid factor, and declared assumptions for yield, conversion, assembly, freight and scrap. | `results/proxy_baseline.json` gives 4.062264 kg CO2e/packaged kettle. It is not an IPCC AR6-harmonized or supplier-closed result. |
-| 2026-10-08 | Publish on GitHub. | Student created `https://github.com/rlaxogus0908-wq/LCA-report` and asked Codex to upload. GitHub connector file write returned 403, so local Git credential authentication is being used. | Commit SHA remains unavailable until push. |
+| 2026-10-08 | Publish on GitHub. | Student created `https://github.com/rlaxogus0908-wq/LCA-report` and asked Codex to upload. GitHub connector file write returned 403; authenticated local Git push succeeded. | First result commit `7991eb7bcbcbd68f30e008f13a6fd2ab588b7202` is preserved by tag `independent-proxy-baseline`. |
 
 ## Human review required before first public submission
 

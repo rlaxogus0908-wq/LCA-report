@@ -13,9 +13,9 @@
 | Study date | 2026-10-08 |
 | Goal | Build a reproducible model and compare defensible data/method choices in class |
 | Intended comparison | The first preserved proxy run versus classmates' runs with compatible methods, then one changed choice |
-| Independent/revised run and Git tag | First numerical proxy scenario preserved in `results/proxy_baseline.json`; no Git tag or revised run yet |
+| Independent/revised run and Git tag | First numerical proxy scenario in `results/proxy_baseline.json`; first-result commit `7991eb7bcbcbd68f30e008f13a6fd2ab588b7202`, tag `independent-proxy-baseline`; no revised run yet |
 
-The final 40-character commit SHA belongs in the private course form after committing. It cannot be embedded in its own future README commit. Personal name and email are intentionally absent.
+Use the first-result 40-character commit SHA above in the private course form after reviewing the submission. Personal name and email are intentionally absent from this public repository.
 
 ## 2. Product, declared unit, and boundary
 
@@ -107,4 +107,4 @@ Codex-assisted project creation date: 2026-10-08. The exact model/version label 
 
 ## 10. Independent and revised runs
 
-The first numerical artifact is `results/proxy_baseline.json`, calculated before class comparison. Its Git tag and commit SHA do not exist until the student creates and commits a public repository. A revised run has not been performed; prior commit, changed choice, predicted effect, revised total, absolute difference, and percentage difference are **not applicable**. Keep this proxy baseline in a separate committed file/tag, then make and explain exactly one changed modeling choice in a later commit.
+The first numerical artifact is `results/proxy_baseline.json`, calculated before class comparison and preserved in commit `7991eb7bcbcbd68f30e008f13a6fd2ab588b7202` under tag `independent-proxy-baseline`. A revised run has not been performed; changed choice, predicted effect, revised total, absolute difference, and percentage difference are **not applicable**. Keep the first result unchanged, then make and explain exactly one changed modeling choice in a later commit.

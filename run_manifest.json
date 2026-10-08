@@ -91,5 +91,7 @@
     "observed_effect": "not applicable"
   },
   "proxy_characterization_method": "Precharacterized published material CO2e/kg factors plus official China 2024 grid factor; source GWP versions heterogeneous/unknown; not harmonized to IPCC AR6",
-  "repository_url": "https://github.com/rlaxogus0908-wq/LCA-report"
+  "repository_url": "https://github.com/rlaxogus0908-wq/LCA-report",
+  "independent_proxy_result_commit_sha": "7991eb7bcbcbd68f30e008f13a6fd2ab588b7202",
+  "independent_proxy_result_tag": "independent-proxy-baseline"
 }
